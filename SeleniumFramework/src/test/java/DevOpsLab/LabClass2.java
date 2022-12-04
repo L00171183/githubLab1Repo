@@ -1,13 +1,14 @@
+package DevOpsLab;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-//import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class BrowserTest {
+public class LabClass2 {
 	
-	WebDriver driver = null; 
+WebDriver driver = null; 
 	
 	@BeforeTest
 	public void SetUp() {

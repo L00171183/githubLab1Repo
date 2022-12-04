@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-16T05:43:56 GMT" name="Default suite" finished-at="2022-11-16T05:43:59 GMT" duration-ms="2389">
+  <suite started-at="2022-12-04T04:25:11 GMT" name="Suite1" finished-at="2022-12-04T04:25:24 GMT" duration-ms="13362">
     <groups>
     </groups>
-    <test started-at="2022-11-16T05:43:56 GMT" name="Default test" finished-at="2022-11-16T05:43:59 GMT" duration-ms="2389">
-      <class name="BrowserTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:BrowserTest@60bd273d]" started-at="2022-11-16T05:43:56 GMT" name="SetUp" finished-at="2022-11-16T05:43:58 GMT" duration-ms="1598" status="PASS">
+    <test started-at="2022-12-04T04:25:11 GMT" name="Test1" finished-at="2022-12-04T04:25:24 GMT" duration-ms="13362">
+      <class name="DevOpsLab.LabClass1">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:DevOpsLab.LabClass1@f5acb9d]" started-at="2022-12-04T04:25:11 GMT" name="SetUp" finished-at="2022-12-04T04:25:13 GMT" duration-ms="2779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="Search()[pri:0, instance:BrowserTest@60bd273d]" started-at="2022-11-16T05:43:58 GMT" name="Search" finished-at="2022-11-16T05:43:59 GMT" duration-ms="762" status="PASS">
+        <test-method signature="Search()[pri:0, instance:DevOpsLab.LabClass1@f5acb9d]" started-at="2022-12-04T04:25:14 GMT" name="Search" finished-at="2022-12-04T04:25:23 GMT" duration-ms="8705" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:BrowserTest@60bd273d]" started-at="2022-11-16T05:43:59 GMT" name="Close" finished-at="2022-11-16T05:43:59 GMT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:DevOpsLab.LabClass1@f5acb9d]" started-at="2022-12-04T04:25:23 GMT" name="Close" finished-at="2022-12-04T04:25:24 GMT" duration-ms="356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-      </class> <!-- BrowserTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- DevOpsLab.LabClass1 -->
+      <class name="DevOpsLab.LabClass2">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:DevOpsLab.LabClass2@58d75e99]" started-at="2022-12-04T04:25:13 GMT" name="SetUp" finished-at="2022-12-04T04:25:14 GMT" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Search()[pri:0, instance:DevOpsLab.LabClass2@58d75e99]" started-at="2022-12-04T04:25:23 GMT" name="Search" finished-at="2022-12-04T04:25:23 GMT" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:DevOpsLab.LabClass2@58d75e99]" started-at="2022-12-04T04:25:24 GMT" name="Close" finished-at="2022-12-04T04:25:24 GMT" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- DevOpsLab.LabClass2 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
 </testng-results>

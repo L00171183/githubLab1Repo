@@ -1,3 +1,5 @@
+package DevOpsLab;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -5,7 +7,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 //import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class BrowserTest {
+public class LabClass1 {
 	
 	WebDriver driver = null; 
 	
@@ -25,7 +27,7 @@ public class BrowserTest {
     public void Search() {
 		
 		
-		driver.get("https://www.lyit.ie/Student-Hub");
+		driver.get("https://www.lyit.ie/");
 	}
 	
 	@AfterTest
